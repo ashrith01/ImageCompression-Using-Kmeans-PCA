@@ -6,7 +6,7 @@ Red_Channel = Original_Image(:, :, 1);
 Green_Channel = Original_Image(:, :, 2);
 Blue_Channel = Original_Image(:, :, 3);
 
-PCs_array = input('Enter differnet number of PC Values : ');
+PCs_array = input('Enter different numbers of principal components, for example [2 10 100] : ');
 
 % Display Original image
 subplot(floor(length(PCs_array)/2)+1, 2, 1);

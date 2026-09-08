@@ -8,7 +8,7 @@ Reshaped_Original_Image_Size = reshape(Original_Image, Original_Image_Size(1)*Or
 unique_colors=Unique_Colors([File_Name '.' File_Format]);
 disp([File_Name '.' File_Format ' has ' num2str(unique_colors,'%d') ' unique colours']);
 
-K_array = input('Enter differnet k Values : ');
+K_array = input('Enter different K values, for example [8 16 32] : ');
 Max_Iterations = input('Enter the maximum iterations : ');
 
 % Display Original image
